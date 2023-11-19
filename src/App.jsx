@@ -1,7 +1,11 @@
+import FetchGetBase from './components/FetchGetBase';
+import FetchGetJsonPlaceHolder from './components/FetchGetJsonPlaceHolder';
+
 const App = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <FetchGetBase />
+      <FetchGetJsonPlaceHolder />
     </>
   );
 };
